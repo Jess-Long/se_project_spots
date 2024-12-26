@@ -1,10 +1,6 @@
-.card {
-  max-width: 413px;
-}
-
 .card__image {
   height: 413px;
-  width: 413px;
+  width: 100%;
   object-fit: cover;
   border-radius: 10px;
   display: block;
@@ -35,4 +31,15 @@
   line-height: 1.2;
   font-weight: 500;
   font-size: 1.3em;
+}
+
+@media screen and (max-width: 627px) {
+  .card__image {
+    height: 288px;
+  }
+  .card__title {
+    margin: 12px 0 0;
+    font-size: 18px;
+    line-height: 1;
+  }
 }
