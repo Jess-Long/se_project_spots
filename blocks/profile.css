@@ -26,7 +26,11 @@
   margin-top: auto;
   border: none;
   background: none;
-  width: 107px;
+  width: 110px;
+}
+
+.profile__edit-btn-icon {
+  margin-right: 8px;
 }
 
 .profile__add-btn {
@@ -37,4 +41,7 @@
   border-radius: 10px;
   background-color: rgba(33, 33, 33, 1);
   color: #fff;
+}
+.profile__add-btn-icon {
+  margin-right: 8px;
 }
