@@ -10,6 +10,9 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
 }
 
 .card__like-btn {
@@ -31,6 +34,10 @@
   line-height: 1.2;
   font-weight: 500;
   font-size: 1.3em;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 353px;
 }
 
 @media screen and (max-width: 627px) {
@@ -41,5 +48,6 @@
     margin: 12px 0 0;
     font-size: 18px;
     line-height: 1;
+    max-width: 250px;
   }
 }
