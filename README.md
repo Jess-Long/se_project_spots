@@ -8,7 +8,7 @@
 
 **Intro**
 
-This project is designed so all the elements are displayed correctly on popular screen sizes. All elements are based on the figma project linked below. Elements are resposive and change slightly according to screen size. Ellipses are added to text to ensure all text adheres to figma design specifications.
+This project is designed so all the elements are displayed correctly on popular screen sizes. All elements are based on the figma project linked below. Elements are resposive and change slightly according to screen size. Ellipses are added to text to ensure all text adheres to figma design specifications. [Link to project GitHub page](https://jess-long.github.io/se_project_spots/)
 
 **Figma**
 

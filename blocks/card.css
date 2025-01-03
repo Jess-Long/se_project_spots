@@ -2,7 +2,7 @@
   height: 413px;
   width: 100%;
   object-fit: cover;
-  border-radius: 10px;
+  border-radius: 8px;
   display: block;
 }
 
@@ -10,9 +10,6 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
 }
 
 .card__like-btn {
@@ -33,11 +30,13 @@
   font-family: Poppins, Arial, Helvetica, sans-serif;
   line-height: 1.2;
   font-weight: 500;
-  font-size: 1.3em;
+  font-size: 18px;
+  color: rgba(33, 33, 33, 1);
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
   max-width: 353px;
+  margin: 12px 0 0;
 }
 
 @media screen and (max-width: 627px) {
