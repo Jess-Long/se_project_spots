@@ -17,6 +17,5 @@ This project is designed so all the elements are displayed correctly on popular 
 **Images**  
 ![webpage preview](./images/page-view.png)
 ![webpage mobile preview](./images/mobile-profile-view.png)
-![webpage video](https://www.loom.com/share/678c892c31c64e219884860427b7fab1?sid=9a2ae484-8c46-454d-be79-01d6b2bbc03f)
 
-Good luck and have fun!
+[webpage video](https://www.loom.com/share/678c892c31c64e219884860427b7fab1?sid=9a2ae484-8c46-454d-be79-01d6b2bbc03f)
