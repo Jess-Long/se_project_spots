@@ -38,12 +38,20 @@
   align-items: center;
   background: transparent;
   border: none;
+  opacity: 70%;
+}
+
+.modal__close-btn:hover {
+  opacity: 100%;
+  cursor: pointer;
 }
 
 .modal__title {
   margin: 0 0 32px;
   font-size: 32px;
   line-height: 1;
+  color: #212121;
+  font-weight: 500;
 }
 
 .modal__label {
@@ -59,20 +67,33 @@
 
 .modal__input {
   border-radius: 8px;
-  font-size: 20px;
+  font-size: 16px;
   line-height: 1;
   font-weight: 500;
   padding: 16px 12px;
+  opacity: 70%;
+  color: #212121;
+}
+
+.modal__input:hover {
+  opacity: 100%;
+  cursor: pointer;
 }
 
 .modal__submit-btn {
   width: 156px;
   padding: 18px 0;
-  background-color: rgba(33, 33, 33, 1);
   border-radius: 8px;
   color: rgba(252, 245, 229, 1);
   font-size: 16px;
   line-height: 1;
+  background-color: rgba(33, 33, 33, 1);
+  border: none;
+}
+
+.modal__submit-btn:hover {
+  background-color: rgba(33, 33, 33, 0.8);
+  cursor: pointer;
 }
 
 @media screen and (max-width: 627px) {

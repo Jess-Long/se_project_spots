@@ -100,6 +100,7 @@
     align-items: center;
     max-width: 288px;
     gap: 6px;
+    margin: 0;
   }
 
   .profile__avatar {
