@@ -9,7 +9,7 @@ const initialCards = [
   },
   {
     name: "An outdoor cafe",
-    link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/spots/2-photo-by-ceiline-from-pexels.jpg",
+    link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/spots/3-photo-by-tubanur-dogan-from-pexels.jpg",
   },
   {
     name: "A very long bridge, over the forest and through the trees",
@@ -81,3 +81,8 @@ for (let i=0; i<initialCards.length; i++) {
   const cardElement=getCardElement(initialCards[i]);
   cardsList.prepend(cardElement);
 }
+
+initialCards.forEach (function (item) {
+  console.log(item.name);
+  console.log(item.link);
+});
